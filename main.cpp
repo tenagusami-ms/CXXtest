@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <cstdio>
 
 void a(const char*);
 
-int main(int argc, char** argv){
+int main(){
   char x[5] = "test";
   a(x);
   
