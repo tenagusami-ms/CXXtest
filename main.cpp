@@ -1,15 +1,15 @@
 #include <cstdio>
+#include <string>
 
-void a(const char*);
+void a(const std::string &);
 
-int main(){
-  char x[5] = "test2";
-  a(x);
-  
-  return 0;
+int main() {
+    const std::string str{"tes"};
+    a(str);
+
+    return 0;
 }
 
-void a(const char* x){
-  printf("test word is %s.\n", x);
+void a(const std::string &x) {
+    printf("test word is %s.\n", x.c_str());
 }
-
