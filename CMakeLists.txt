@@ -14,7 +14,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O4")
 set(CMAKE_C_FLAGS_DEBUG "-g")
 set(CMAKE_C_FLAGS_RELEASE "-O4")
-add_executable(CXXtest main.cpp)
+add_executable(CXXtest main.cpp test/main_test.cpp)
 include_directories(third_party/spdlog/include)
 add_subdirectory(test)
 ## Google Testの不要なキャッシュ変数をオフにしておく
