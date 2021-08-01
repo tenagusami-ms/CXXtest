@@ -3,7 +3,7 @@
 void a(const char*);
 
 int main(){
-  char x[5] = "test";
+  char x[5] = "test2";
   a(x);
   
   return 0;
