@@ -4,7 +4,7 @@
 void a(const std::string &);
 
 int main() {
-    const std::string str{"test4"};
+    const std::string str{"test5"};
     a(str);
 
     return 0;
